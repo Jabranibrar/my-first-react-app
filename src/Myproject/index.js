@@ -52,14 +52,14 @@ const Index = () => {
             'description':'Quis viverra ut quam aliquet ipsum, habitasse congue. A vel justo at ultricies egestas. Eu lectus ullamcorper sed massa pharetra...',
             image:'/Rectangle8.png',
             "linkname":"raja njee",
-            "href":"www.curriki.org"
+            "href":"www.google.org"
         },
 
     ]
 
     const Volunteers=[
         {
-            'heading':'Help us to help scientists do what they do best – discovery',
+            'heading':'Help this is our best appest – discovery',
             'title':'Software engineering expertise',
             'description':'If you’re a mid-level to senior software or devops engineer and can spare half a day per week, we need you!',
             'paragraph':'We need expertise in python, django, javascript, React, Rust, C++, gitops and devops expertis If you’re a mid-level to senior software or devops engineer and can spare half a day per week, we need you ',
