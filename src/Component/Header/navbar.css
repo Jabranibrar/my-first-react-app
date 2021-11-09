@@ -1,0 +1,38 @@
+.navbar {
+    width: 100%;
+    background: rgba(0, 0, 0, 0.63);
+    display: flex;
+    justify-content: space-around;
+}
+.menu-list {
+    margin: 0;
+}
+.list-item {
+    font-size: 20px;
+    list-style: none;
+    padding: 12px 0;
+    display: inline-block;
+    position: relative;
+}
+.list-item a {
+    text-decoration: none;
+    margin: 0 20px;
+    color: #fff;
+}
+.list-item a::after {
+    content:'';
+    height: 2px;
+    width: 0;
+    background:rgba(22, 41, 216, 0.589);
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    transition: 0.5s;
+}
+.list-item a:hover::after {
+    width: 100%;
+}
+.logo {
+    width:200px;
+    cursor: pointer;
+}

@@ -1,0 +1,45 @@
+.navbar {
+    width: 100%;
+    background: rgba(12, 29, 60, 40%);
+    display: flex;
+    justify-content: space-around;
+}
+.list-item {
+    font-size: 20px;
+    list-style: none;
+    padding: 24px 0;
+    display: inline-block;
+    position: relative;
+}
+.list-item a {
+    text-decoration: none;
+    margin: 0 20px;
+    color: #fff;
+    
+}
+.list-item a.active {
+    padding: 7px 30px;
+    border: 1px solid #009688;
+    border-radius: 25px;
+}
+.list-item a::after {
+    content:'';
+    height: 2px;
+    width: 0;
+    background: #009688;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    transition: 0.5s;
+}
+.list-item a:hover:after {
+    width: 100%;
+}
+.list-item:hover a.active {
+    background: #009688;
+    border: none;
+}
+.logo {
+    cursor: pointer;
+   
+}

@@ -1,0 +1,23 @@
+.container2 {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    max-width: 1198px;
+    margin: auto;
+}
+.container3 {
+    width: 378px;
+}
+img {
+    width: 100%;
+}
+.card-container {
+    background-color: #212121;
+}
+.heading {
+    margin-top: 22px;
+    color: #fff;
+}
+.paragraph {
+    color: #fff;
+}

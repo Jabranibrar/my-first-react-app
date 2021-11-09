@@ -1,0 +1,17 @@
+.footer-contanier {
+    width: 100%;
+    color: #fff;
+    text-align: center;
+}
+.footer-content {
+    background: #08161686;
+    box-shadow: 3px 4px 29px #383a39 ;
+}
+.copy-right {
+    max-width: 500px;
+    margin: auto;
+    padding: 20px 0;
+    font-size: 23px;
+    font-weight: 300;
+
+}
