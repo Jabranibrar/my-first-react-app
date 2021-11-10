@@ -1,7 +1,7 @@
 import React from 'react';
 import Logo from '../../assets/images/logo-1.svg';
 import Button from 'react-bootstrap/Button';
-// import { Link } from "react-router";
+import { Link } from 'react-router-dom'
 import './navbar.css';
 const Contact = () => {
     return (
