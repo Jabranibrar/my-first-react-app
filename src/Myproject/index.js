@@ -7,7 +7,6 @@ import Card from '../Component/Card home/Card';
 import Volunteer from '../Component/Volunteer/Volunteer';
 import Footer from '../Component/footer/footer';
 
-
 const Index = () => {
     const data=[
         {
@@ -75,10 +74,8 @@ const Index = () => {
         },
     ]
     return (
-        <div>
+        <div>    
 <Navbar/>
-
-
 {/* <HomePage/> */}
 
 <div className="container my-3">
