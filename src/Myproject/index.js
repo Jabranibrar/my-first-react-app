@@ -3,7 +3,7 @@ import Navbar from '../Component/Header/navbar';
 // import HomePage from '../Myproject/home/home';
 // import Rectangle from '../assets/images/Rectangle3.png';
 import TextForm from '../Component/TextForm/TextForm';
-import Card from '../Component/Card home/Card';
+import Card from '../Component/News/Card';
 import Volunteer from '../Component/Volunteer/Volunteer';
 import Footer from '../Component/footer/footer';
 
@@ -75,7 +75,7 @@ const Index = () => {
     ]
     return (
         <div>    
-<Navbar/>
+
 {/* <HomePage/> */}
 
 <div className="container my-3">
@@ -90,7 +90,6 @@ const Index = () => {
 <div className='volunteer-container'>
     <Volunteer VolunteerData={Volunteers} DiscoveryData={Discovery}/>
 </div>
-<Footer/>  
        </div>
     )
 }

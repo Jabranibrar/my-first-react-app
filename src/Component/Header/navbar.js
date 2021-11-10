@@ -1,6 +1,7 @@
 import React from 'react';
 import Logo from '../../assets/images/logo-1.svg';
 import Button from 'react-bootstrap/Button';
+// import { Link } from "react-router";
 import './navbar.css';
 const Contact = () => {
     return (
@@ -10,8 +11,8 @@ const Contact = () => {
                 <img src ={Logo} className="logo" alt="logo picture"/>
 
             <ul className="menu-list">
-                <li className="list-item"><a href="#">Home</a></li>
-                <li className="list-item"><a href="#">Contact</a></li>
+                <li className="list-item"><a href="/">Home</a></li>
+                <li className="list-item"><a href="/contact">Contact</a></li>
                 <li className="list-item"><a href="#">Visibility</a></li>
                 <li className="list-item"> <Button outline="primary" size="lg" >Ordered</Button></li>
                 <li className="list-item"><a href="#">About</a></li>

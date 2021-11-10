@@ -7,15 +7,10 @@ const {CardData}=props;
 console.log(CardData);
   return (
     <>
-      {/* <h6 className='heading'>{props.title}</h6> */}
-      <div className="container2 py-3">
-        {/*   <img src={Rectangle} alt="card-image" />
-            <h4 className='heading'>{props.heading}</h4>
-            <p className='paragraph'>{props.description}</p>
-            <a href="">{props.link}</a> */}
+      <div className="container2">
         {CardData.map((curItem) => {
           return (
-            <>
+            
           
               <div className="container3 mb-5">
                  
@@ -26,7 +21,7 @@ console.log(CardData);
                
               </div>
              
-            </>
+      
           );
         })}
       </div>
