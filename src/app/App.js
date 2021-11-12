@@ -4,11 +4,8 @@ import Myproject from '../Myproject/index'
 import 'bootstrap/dist/css/bootstrap.min.css';
 import Navbar from "../Component/Header/navbar"
 import Footer from "../Component/footer/footer"
-
-import { BrowserRouter as Router, Switch, Route, Link} from "react-router-dom";
-import Contact from '../Myproject/contact/Contact';
-
-
+import { BrowserRouter as Router, Switch, Route} from "react-router-dom";
+import Contact from '../Myproject/Contact/Contact';
 function App() {
   return (
     <div className="App">

@@ -1,4 +1,4 @@
-import React, {useState} from 'react'
+import React, {useState, useEffect} from 'react'
 
 export default function TextForm(props) {
    const handleUpclick = ()=>{
@@ -26,8 +26,8 @@ const handleExtraSpaces = ()=>{
    const handleOnChange = (event)=>{
        setText(event.target.value);
    }
-    const [text, setText] = useState('');
- 
+
+const [text, setText] = useState('')
     return (
         <>
         <div className="container-1">
@@ -42,6 +42,8 @@ const handleExtraSpaces = ()=>{
             <button className="btn btn-primary mx-2" onClick={handleClearclick}>Clear text</button>
             <button className="btn btn-primary mx-2" onClick={handleCopy}>Copy text</button>
             <button className="btn btn-primary mx-2" onClick={handleExtraSpaces}>Remove Extra Spaces</button>
+            
+
         </div>
         <div className="container-2">
             <h2>Your text summary</h2>

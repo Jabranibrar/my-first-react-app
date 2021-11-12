@@ -13,7 +13,7 @@ console.log(CardData);
             
           
               <div className="container3 mb-5">
-                 
+               
                 <img src={curItem.image} alt="card-image" />
                 <h4 className="heading">{curItem.title}</h4>
                 <p className="paragraph">{curItem.description}</p>

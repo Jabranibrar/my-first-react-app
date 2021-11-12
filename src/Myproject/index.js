@@ -6,8 +6,10 @@ import TextForm from '../Component/TextForm/TextForm';
 import Card from '../Component/News/Card';
 import Volunteer from '../Component/Volunteer/Volunteer';
 import Footer from '../Component/footer/footer';
+import {useState} from 'react'
 
 const Index = () => {
+   
     const data=[
         {
             'title':"Achieving Scalability",
@@ -73,18 +75,27 @@ const Index = () => {
             'question':' If you have a skill and would like to help, let us know about it!',
         },
     ]
+
+    //useState using...
+    const [loop, setLoop] = useState(true)
+
     return (
+       
         <div>    
 
 {/* <HomePage/> */}
 
 <div className="container my-3">
     <TextForm heading="Enter the text to analyze below"/>
+    <button type="button" className="btn btn-primary" onClick={() =>setLoop(true)}>Show Card</button>
+    <button type="button" className="btn btn-primary mx-3" onClick={()=>setLoop(false)}>Hide Card</button>
     </div>
    
 
 <div className="card-container my-5">
-    <Card CardData={data} />
+    {/* //if else statement is here */}
+    { loop ? (<Card CardData={data} />):(null)}
+
                          
 </div>
 <div className='volunteer-container'>
