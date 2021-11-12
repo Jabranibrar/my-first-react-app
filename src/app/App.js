@@ -6,8 +6,6 @@ import Navbar from "../Component/Header/navbar"
 import Footer from "../Component/footer/footer"
 import { BrowserRouter as Router, Switch, Route} from "react-router-dom";
 import Contact from '../Myproject/Contact/Contact';
-
-
 function App() {
   return (
     <div className="App">
